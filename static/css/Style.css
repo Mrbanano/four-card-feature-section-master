@@ -39,6 +39,9 @@ body {
   color:var(--VeryDarkBlue);
   font-weight: 600;
 }
+.headerSection> p{
+    color: var(--GrayishBlue);
+  }
 .card-group {
   border: 1px green;
 }
@@ -100,6 +103,7 @@ body {
   .headerSection> p{
     font-size: 1em;
     width: 37%;
+    color: var(--GrayishBlue);
     margin: 0 auto;
   }
   .card-group{
@@ -145,6 +149,7 @@ body {
   .headerSection> p{
     font-size: 1em;
     width: 37%;
+    color: var(--GrayishBlue);
     margin: 0 auto;
   }
   .card-group{
