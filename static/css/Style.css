@@ -19,14 +19,25 @@ body {
   background-color: var(--VeryLightGray);
 }
 .container {
-  border: 1px solid red;
   padding: 0 2em;
+  margin: 6.13em 0 0 0 ;
+  max-width: 1440px;
 }
 
 .headerSection {
   text-align: center;
-  border: 1px solid blue;
-  margin: 6em 0 5em 0;
+  margin: 0 0 5em 0;
+}
+.headerSection h1{
+  padding-bottom: 2.2em;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+  line-height: 1.5em;
+}
+.headerSection h1 > p{
+  color:var(--VeryDarkBlue);
+  font-weight: 600;
 }
 .card-group {
   border: 1px green;
@@ -44,6 +55,7 @@ body {
 .card .card-content{
   padding: 2em 1.8em 0 1.8em;
   font-weight: 400;
+  color:var(--VeryDarkBlue);
 }
 .card .card-content .card-text {
   color: var(--GrayishBlue);
