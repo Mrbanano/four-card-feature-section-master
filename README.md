@@ -19,8 +19,9 @@
 
 </p>
 
-<img src="https://i.postimg.cc/x8djbsLp/mobile-design.jpg
-" align="right" alt="mobile-preview"  width="30%">
+
+<img src="https://i.postimg.cc/x8djbsLp/mobile-design.jpg" 
+align="right" alt="mobile-preview"  width="30%">
 
 
 
