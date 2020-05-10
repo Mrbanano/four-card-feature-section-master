@@ -77,3 +77,88 @@ body {
 .Calculator {
   border-top: 5px solid var(--Blue);
 }
+
+/*Web view*/
+
+@media(min-width: 1365px){
+  .container{
+    margin:  6.13em auto;
+  }
+  .headerSection{
+    margin-bottom: 4.47em;
+  }
+  .headerSection h1{
+    font-size: 1.9em;
+    font-weight: 200;
+    line-height: 1.66em;
+    padding-bottom: 1.3em;
+    color:var(--VeryDarkBlue);
+  }
+  .headerSection h1 > p{
+    font-size: 1.1em;
+  }
+  .headerSection> p{
+    font-size: 1em;
+    width: 37%;
+    margin: 0 auto;
+  }
+  .card-group{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+  }  
+  .card{
+    margin: 0 auto 2.3em auto;
+    width: 23.33em;
+    height: 16.66em
+  }
+  .Supervisor,.Calculator{
+    margin: 9.33em 0 0 0;
+  }
+  .Supervisor{
+    float: right;
+    margin-right: -25px;
+  }
+  .Calculator{
+    margin-left: -25px;
+  }
+
+}
+
+@media screen and (min-width: 980px) and (max-width: 1364px) {
+  .container{
+    margin:  6.13em auto;
+  }
+  .headerSection{
+    margin-bottom: 4.47em;
+  }
+  .headerSection h1{
+    font-size: 1.9em;
+    font-weight: 200;
+    line-height: 1.66em;
+    padding-bottom: 1.3em;
+    color:var(--VeryDarkBlue);
+  }
+  .headerSection h1 > p{
+    font-size: 1.1em;
+  }
+  .headerSection> p{
+    font-size: 1em;
+    width: 37%;
+    margin: 0 auto;
+  }
+  .card-group{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+  } 
+  .card{
+    width: 80%;
+     margin: 0 auto 2.3em auto;
+  }
+  
+  .Supervisor,.Calculator{
+    margin: 9.33em auto 0 auto;
+  }
+
+}
