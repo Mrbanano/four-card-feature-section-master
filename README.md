@@ -21,7 +21,7 @@
 
 
 <img src="https://i.postimg.cc/x8djbsLp/mobile-design.jpg" 
-align="right" alt="mobile-preview"  width="30%">
+align="right" alt="mobile-preview"  width="25%">
 
 
 
