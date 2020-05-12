@@ -20,7 +20,7 @@ body {
 }
 .container {
   padding: 0 2em;
-  margin: 6.13em 0 0 0 ;
+  margin: 6.13em 0 0 0;
   max-width: 1440px;
 }
 
@@ -28,20 +28,23 @@ body {
   text-align: center;
   margin: 0 0 5em 0;
 }
-.headerSection h1{
-  padding-bottom: 2.2em;
+.headerSection h1 {
   font-size: 1.5em;
   font-weight: 400;
   color: var(--GrayishBlue);
   line-height: 1.5em;
+  padding-bottom: 0 !important;
 }
-.headerSection h1 > p{
-  color:var(--VeryDarkBlue);
+.headerSection h2 {
+  font-size: 2em;
+  margin-top: 0;
+  color: var(--VeryDarkBlue);
   font-weight: 600;
+  padding-bottom: 1em;
 }
-.headerSection> p{
-    color: var(--GrayishBlue);
-  }
+.headerSection > p {
+  color: var(--GrayishBlue);
+}
 .card-group {
   border: 1px green;
 }
@@ -55,10 +58,10 @@ body {
   -moz-box-shadow: 0px 13px 32px 3px rgba(217, 227, 237, 1);
   box-shadow: 0px 13px 32px 3px rgba(217, 227, 237, 1);
 }
-.card .card-content{
+.card .card-content {
   padding: 2em 1.8em 0 1.8em;
   font-weight: 400;
-  color:var(--VeryDarkBlue);
+  color: var(--VeryDarkBlue);
 }
 .card .card-content .card-text {
   color: var(--GrayishBlue);
@@ -83,87 +86,87 @@ body {
 
 /*Web view*/
 
-@media(min-width: 1365px){
-  .container{
-    margin:  6.13em auto;
+@media (min-width: 1365px) {
+  .container {
+    margin: 6.13em auto;
   }
-  .headerSection{
+  .headerSection {
     margin-bottom: 4.47em;
   }
-  .headerSection h1{
+  .headerSection h1 {
     font-size: 1.9em;
     font-weight: 200;
     line-height: 1.66em;
     padding-bottom: 1.3em;
-    color:var(--VeryDarkBlue);
+    color: var(--VeryDarkBlue);
   }
-  .headerSection h1 > p{
+  .headerSection h1 > p {
     font-size: 1.1em;
   }
-  .headerSection> p{
+  .headerSection > p {
     font-size: 1em;
     width: 37%;
     color: var(--GrayishBlue);
     margin: 0 auto;
   }
-  .card-group{
+  .card-group {
     margin: 0 auto;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
-  }  
-  .card{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
     margin: 0 auto 2.3em auto;
     width: 23.33em;
-    height: 16.66em
+    height: 16.66em;
   }
-  .Supervisor,.Calculator{
+  .Supervisor,
+  .Calculator {
     margin: 9.33em 0 0 0;
   }
-  .Supervisor{
+  .Supervisor {
     float: right;
     margin-right: -25px;
   }
-  .Calculator{
+  .Calculator {
     margin-left: -25px;
   }
-
 }
 
 @media screen and (min-width: 980px) and (max-width: 1364px) {
-  .container{
-    margin:  6.13em auto;
+  .container {
+    margin: 6.13em auto;
   }
-  .headerSection{
+  .headerSection {
     margin-bottom: 4.47em;
   }
-  .headerSection h1{
+  .headerSection h1 {
     font-size: 1.9em;
     font-weight: 200;
     line-height: 1.66em;
     padding-bottom: 1.3em;
-    color:var(--VeryDarkBlue);
+    color: var(--VeryDarkBlue);
   }
-  .headerSection h1 > p{
+  .headerSection h1 > p {
     font-size: 1.1em;
   }
-  .headerSection> p{
+  .headerSection > p {
     font-size: 1em;
     width: 37%;
     color: var(--GrayishBlue);
     margin: 0 auto;
   }
-  .card-group{
+  .card-group {
     margin: 0 auto;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
-  } 
-  .card{
-    width: 80%;
-     margin: 0 auto 2.3em auto;
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  
-  .Supervisor,.Calculator{
-    margin: 9.33em auto 0 auto;
+  .card {
+    width: 80%;
+    margin: 0 auto 2.3em auto;
   }
 
+  .Supervisor,
+  .Calculator {
+    margin: 9.33em auto 0 auto;
+  }
 }
